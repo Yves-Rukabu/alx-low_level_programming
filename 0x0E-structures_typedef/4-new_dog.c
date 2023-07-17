@@ -5,7 +5,7 @@
  *_strlen - returns the strength of string
  * @s: string to evaluate
  *
- * Rerurn: the length of a string
+ * Return: the length of a string
  */
 int _strlen(char *s)
 {
@@ -43,7 +43,7 @@ char *_strcpy(char *dest, char *src)
 
 	for (i = 0; i < len; i++)
 	{
-		dest[i] = src[i]
+		dest[i] = src[i];
 	}
 	dest[i] = '\0';
 
