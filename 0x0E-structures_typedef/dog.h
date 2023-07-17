@@ -17,6 +17,10 @@ struct dog
 
 /**
  * dog_t - Typedef for dog structure
+ * @name: the name of the dog
+ * @age: the age of the dog
+ * @owner: the owner of the dog
+ * @d: pointer to struct dog to initialize
  */
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
